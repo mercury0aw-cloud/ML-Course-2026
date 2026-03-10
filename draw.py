@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 x = np.linspace(0, 2 * np.pi, 100)
 # 2. 计算对应的 y 值
 # 数学公式: y = sin(x)
-y = np.sin(x
+y = np.sin(x)
 # 3. 创建绘图
 plt.figure(figsize=(8, 5)) # 设置画布大小
 plt.plot(x, y, label='y = sin(x)', color='blue', linewidth=2)
